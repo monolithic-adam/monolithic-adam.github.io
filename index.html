@@ -22,7 +22,7 @@
 					<header id="header">
 						<div class="logo">
 							<!--Add ICON HERE!-->
-							<span class="icon"><img src="images/full_shade.png" alt="" height="105" width="105"/></span>
+							<span class="icon"><img class="image center" src="images/full_shade.png" alt="" height="100" width="100"/></span>
 						</div>
 						<div class="content">
 							<div class="inner">
@@ -34,8 +34,8 @@
 						<nav>
 							<ul>
 								<li><a href="#intro">Intro</a></li>
+								<!--<li><a href="#about">About</a></li>-->
 								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -49,23 +49,41 @@
 							<article id="intro">
 								<h2 class="major">Intro</h2>
 								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+								<p>My name is Adam Henry, I am a Swift/Objective-C iOS developer in Tokyo. I have lived in Japan going on 7 years now. If you are interested please check out my <a href="#work">work</a> so far.</p>
 							</article>
 
 						<!-- Work -->
 							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
-								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+								<h2 class="major">Open Source</h2>
+								<h4><a href="https://github.com/monolithic-adam/AHCameraFocus">AHCameraFocus</a></h4>
+								<p>Currently a work in progress but it is a custom control I made that mimics the focus icon/brightness slider in Apple's camera app.</p>
+
+								<h4><a href="https://github.com/enigmo/EGPageViewController">EGPageViewController</a></h4>
+								<p>Created in my time at <a href="http://www.enigmo.co.jp/">Enigmo Inc.</a>. It is a UIPageViewController+tab menu pair.</p>
+
+								<h2 class="major">Apps</h2>
+								<span class="image main"><img src="images/flippy.jpg" alt="" /></span>
+								<h4>Flippy Fun</h4>
+								<p>Educational kids game I have been working on for my kids. A few differnt play modes, for example painting and matching games, and an achievement board. Work in Progress.</p>
+
+								<span class="image main"><img src="images/Buyma.jpg" alt="" /></span>
+								<h4><a href="https://itunes.apple.com/jp/app/buyma-バイマ-海外ファッション通販アプリ/id824042539?mt=8">Buyma</a></h4>
+								<p>C2C fashion market application for iOS. During my tenure we rewrote the source code from Objectice-C to Swift, recreated portions of the app that used to be webviews into Native, and made MVVM+RxSwift the main architecture. Property of <a href="http://www.enigmo.co.jp/">Enigmo Inc.</a></p>
+
+								<span class="image main"><img src="images/1Roll.jpg" alt="" /></span>
+								<h4>1Roll</h4>
+								<p>B2B Video Compositing application. Using templates downloaded from the server, the user takes "Cuts" of video, writes their own telops and the app will composite them together with music and overlays client side. From there the user could upload to Youtube or the CMS. Property of <a href="http://hurray3.com/">Hurray3 Inc.</a></p>
+
+								<span class="image main"><img src="images/PhotoSession.jpg" alt="" /></span>
+								<h4>PhotoSession</h4>
+								<p>A photo booth application that uses an iPad connected to an iPhone through multipeer connectivity. The user uses the iPad for navigation and the iPhone takes the pictures and does the editing. Property of <a href="http://hurray3.com/">Hurray3 Inc.</a></p>
 							</article>
 
 						<!-- About -->
 							<article id="about">
 								<h2 class="major">About</h2>
 								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+								<p></p>
 							</article>
 
 						<!-- Contact -->
@@ -90,10 +108,12 @@
 									</ul>
 								</form>
 								<ul class="icons">
-									<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://twitter.com/monolithic_adam" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://github.com/monolithic-adam" class="icon fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://qiita.com/monolithic-adam"><span class="icon fa-stack" style="color:#ffffff">
+									    <i class="fa fa-square fa-stack-1x"></i>
+									    <i class="fa fa-search fa-stack-1x fa-inverse fa-1x" style="color: #000000"></i>
+									</span></a></li>
 								</ul>
 							</article>
 

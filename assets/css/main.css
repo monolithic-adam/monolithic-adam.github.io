@@ -578,7 +578,6 @@
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
-		position: relative;
 	}
 
 		.icon:before {
@@ -588,7 +587,9 @@
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
+			overflow: hidden;
 		}
+
 
 		.icon > .label {
 			display: none;
@@ -665,6 +666,16 @@
 			.image.main img {
 				width: 100%;
 			}
+
+		.image.center {
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			left: 50%;
+			top: 50%; 
+			margin-left: -50px;
+			margin-top: -50px;
+		}
 
 		@media screen and (max-width: 736px) {
 
@@ -1091,7 +1102,7 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/background.JPG");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1229,6 +1240,7 @@
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
+			background-color: #ffffff;
 		}
 
 			#header .logo .icon:before {
